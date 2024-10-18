@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+*:focus{
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.login{
+    margin: 20px auto;
+    width: 300px;
+}
+
+.login-screen{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.app-title{
+    text-align: center;
+    color: #777;
+}
+
+.login-form{
+    text-align: center;
+}
+
+.control-group{
+    margin-bottom: 10px
+}
+
+input{
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 2oo;
+    padding: 10px 0;
+    width: 250px;
+    transition: border .5s;
+}
+
+input:focus{
+    border: 2px solid #3498D8;
+    box-shadow: none;
+}
+
+.btn{
+    border: 2px solid transparent;
+    background: #3498D8;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    transition: 0.25s;
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.btn:hover{
+    background-color: #2980B9;
+}
+
+.container-head {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    background: #372f38;
+}
+
+header .logo {
+    margin-right: auto;
+    
+}
+
+header .logo img {
+    display: block;
+    height: 200px;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    padding: 27px 17px;
+    display: block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: darkgrey;
+    transition: all .5s ease;
+}
+
+.menu li:hover a {
+    background: #265CFF;
+    
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+.film-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.film {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1em 0;
+    padding: 1em;
+    width: 18%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.film img {
+    max-width: 100%;
+    border-radius: 5px;
+}
